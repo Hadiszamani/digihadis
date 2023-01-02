@@ -1,0 +1,213 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+   
+}
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+   
+}
+div.menu>nav>ul{
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    padding-right: 20px;
+    list-style-type: none;
+    text-align: right;
+    box-sizing: border-box;
+    
+}
+div.menu>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    height: inherit;
+    position: relative;
+     
+}
+div.menu>nav>ul>li>a{
+    font-family: IranYekan;
+    font-size: 14px;
+    text-decoration: none;
+    width: inherit;
+    padding: 0 10px;
+    display: block;
+    height: inherit;
+    line-height: 40px;
+    color: darkgrey;
+ 
+}
+div.menu>nav>ul>li>a>span{
+    margin-left: 5px;
+}
+div.menu>nav>ul>li>div.submenu{
+  z-index: 2;
+  width: calc(100% - 40px);  
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  right: calc(50% - calc(100% - 40px)/2);
+  display: none;
+  position: fixed;
+ 
+}
+div.menu>nav>ul>li:hover>div.submenu{
+    display: block;
+}
+div.menu>nav>ul>li>div.submenu>ul{
+   width: 15%;
+   height: inherit;
+   list-style-type: none;
+   text-decoration: none; 
+}
+div.menu>nav>ul>li>div.submenu>ul>li{
+    width: 100%;
+    height: 40px;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>a{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: right;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 15px;
+    text-decoration: none;
+    transition: 100ms;
+    color: darkgrey;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>a>span{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>a:hover{
+    background-color: whitesmoke;
+    color: crimson;
+    font-weight: 600;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div{
+    width: 85%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li:hover>div{
+    display: block;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div.maintitle{
+    width: 85%;
+    height: 30px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div.maintitle>a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div.maintitle>a>span{
+    margin: 5px;
+    vertical-align: middle;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div.maintitle:hover>a{
+    color: crimson;
+    font-weight: 600;  
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div{
+   display: inline-block;
+   width: 20%;
+   height: inherit;
+   vertical-align: top;
+   padding-top: 5px;
+   padding-right: 20px;
+   box-sizing: border-box;
+   font-family: IranYekan;
+   font-size: 12px;
+   font-weight: 500;  
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>div>a{
+    text-decoration: none;
+    color: grey;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>div>a>span{
+    margin: 5px;
+    vertical-align: middle;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.title>li{
+    width: calc(100% - 30px);
+    height: inherit;
+    color: black;
+    border-right: 3px solid crimson;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.title>li{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-right: 5px;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 500;  
+    list-style-type: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.title>li>a{
+    text-decoration: none;
+    color: black;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.title>li>a>span{
+    margin: 5px;
+    vertical-align: middle;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.title:hover>li>a{
+    color: crimson;
+    font-weight: 600;  
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.list>li{
+    display: inline-block;
+    width: calc(100% - 30px);
+    height: inherit;
+    vertical-align: top;
+    padding-top: 15px;
+    padding-right: 5px;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 500;  
+    list-style-type: none;
+    color: darkgrey;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.list>li>a{
+    text-decoration: none;
+    color: darkgrey;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul.list>li>a:hover{
+    color: crimson;
+    font-weight: 600;  
+}
+
+div.menu>nav>ul>li::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    background-color: crimson;
+    transition: 500ms;
+}
+div.menu>nav>ul>li:hover::after{
+    width: 100%;
+}

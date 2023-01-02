@@ -1,0 +1,39 @@
+
+div.offer{
+ width: 100%;
+ padding: 50px; 
+ box-sizing: border-box;
+}
+div.offer>h3{
+    text-align: center;
+    font-family: IranYekan;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+div.offer>div.top,div.offer>div.bottom{
+    width: 93%;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+}
+div.offer>div.top>div,div.offer>div.bottom>div{
+    display: inline-block;
+    width: 14%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-left: 1px solid lightgrey;
+
+}
+div.offer>div.top>div>img,div.offer>div.bottom>div>img{
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+div.offer>div.top>div>p,div.offer>div.bottom>div>p{
+    font-family: IranYekan;
+    font-size: 12px;
+}
+div.offer>div.top>div:last-of-type,div.offer>div.bottom>div:last-of-type{
+    border: unset;
+}

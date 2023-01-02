@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.wrapper{
+    width: 100%;
+}
+@font-face{
+    font-family: IranYekan;
+    src: url('../fonts/IRANYekanWebRegular.eot');
+    src: url('../fonts/IRANYekanWebRegularttf.ttf');
+    src: url('../fonts/IRANYekanWebRegular.woff');
+    src: url('../fonts/IRANYekanWebRegular.woff2');
+}

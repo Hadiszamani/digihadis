@@ -1,0 +1,17 @@
+div.productlist{
+    width: 100%;
+    box-sizing: border-box;
+}
+div.productlist>div.childproductlist{
+    width: 90%;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+div.productlist>div.childproductlist>img{
+    width: 314px;
+    height: 230px;
+    margin-right: 20px;
+    border-radius: 16px;
+}

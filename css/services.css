@@ -1,0 +1,36 @@
+div.services{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+div.services>div{
+    width: 52px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 40px;
+}
+div.services>div>img{
+   width: inherit;
+   height: inherit;
+}
+div.services>div>div.last{
+    width: inherit;
+    height: inherit;
+    background-color: lightgray;
+    line-height: 52px;
+    border-radius: 50%;
+}
+div.services>div>div.last>span{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: grey;
+    border-radius: 50%;
+}
+div.services>div>p{
+    text-align: center;
+    font-family: IranYekan;
+    font-size: 10px;
+    padding-top: 5px;
+}
