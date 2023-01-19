@@ -2,6 +2,7 @@
 div.offer{
  width: 100%;
  padding: 50px; 
+ height: 400px;
  box-sizing: border-box;
 }
 div.offer>h3{
@@ -11,10 +12,17 @@ div.offer>h3{
     font-weight: 500;
     margin-bottom: 20px;
 }
-div.offer>div.top,div.offer>div.bottom{
+div.offer>div.top{
     width: 93%;
     margin: 0 auto;
     border: 1px solid lightgrey;
+    border-radius: 15px 15px 0px 0px;
+}
+div.offer>div.bottom{
+    width: 93%;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 0px 0px 15px 15px;
 }
 div.offer>div.top>div,div.offer>div.bottom>div{
     display: inline-block;
@@ -23,7 +31,6 @@ div.offer>div.top>div,div.offer>div.bottom>div{
     box-sizing: border-box;
     text-align: center;
     border-left: 1px solid lightgrey;
-
 }
 div.offer>div.top>div>img,div.offer>div.bottom>div>img{
     width: 50%;

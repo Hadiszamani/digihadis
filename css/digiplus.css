@@ -1,0 +1,130 @@
+div.digiplus{
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+div.digiplus>div.childdigiplus{
+    width: 93%;
+    height: 350px;
+    background-color: #a6358a;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+}
+div.digiplus>div.childdigiplus>div.plus{
+    width: 31%;
+    height: 300px;
+    background-color: #a6358a;
+}
+div.digiplus>div.childdigiplus>div.plus>p{
+    text-align: right;
+    font-family: IranYekan;
+    font-size: 14px;
+    font-weight: 400; 
+    margin-top: 4px;
+    margin-bottom: 12px;
+    color: white;
+}
+div.digiplus>div.childdigiplus>div.plus>a{
+    text-decoration: none;
+    text-align: right;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 700; 
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    color: white; 
+}
+div.digiplus>div.childdigiplus>div.plus>a>span{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+div.digiplus>div.childdigiplus>div.plus>img.widget{
+    width: 100%;
+    height: 200px;
+}
+div.digiplus>div.childdigiplus>div.naghdi{
+    width: 31%;
+    height: 300px;
+    background-color: white;
+    margin-right: 70px;
+    border-radius: 0px 15px 15px 0px;
+}
+div.digiplus>div.childdigiplus>div.fori{
+    width: 31%;
+    height: 300px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+div.digiplus>div.childdigiplus>div.naghdi>div>p{
+    text-align: right;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 700; 
+    margin-top: 12px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+div.digiplus>div.childdigiplus>div.fori>div>p{
+    text-align: right;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 700; 
+    margin-top: 12px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+div.digiplus>div.childdigiplus>div.naghdi>div>p>span{
+    margin-left: 5px;
+    font-weight: 500;   
+}
+div.digiplus>div.childdigiplus>div.fori>div>p>span{
+    margin-left: 5px;
+    font-weight: 500;   
+}
+div.digiplus>div.childdigiplus>div.naghdi>div>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: purple;
+    margin: 100px 45% 24px 8%;
+}
+div.digiplus>div.childdigiplus>div.fori>div>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: purple;
+    margin: 100px 45% 24px 5%;
+}
+div.digiplus>div.childdigiplus>div.naghdi>div>a>span{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+div.digiplus>div.childdigiplus>div.fori>div>a>span{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+div.digiplus>div.childdigiplus>div.naghdi>div>img{
+    width: 115px;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+div.digiplus>div.childdigiplus>div.fori>div>img{
+    width: 115px;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+

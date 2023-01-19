@@ -1,0 +1,19 @@
+div.offthird{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+div.offthird>div.childoffthird{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+div.offthird>div.childoffthird>img{
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,179 @@
+div.footer{
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid lightgrey;
+   
+}
+div.footer>div.childfooter>div.digi{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+}
+div.footer>div.childfooter>div.digi>img{
+    width: 115px;
+    height: 30px;
+}
+div.footer>div.childfooter>div.digi>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 700;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    vertical-align: text-top; 
+    margin-left: 0; 
+    margin-right: auto;
+}
+div.footer>div.childfooter>div.digi>a>span{
+    margin-right: 5px;
+}
+div.footer>div.childfooter>div.subdigi{
+    width: 100%;
+    display: flex;
+}
+div.footer>div.childfooter>div.subdigi>p.p1{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(45, 44, 44);
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+}
+div.footer>div.childfooter>div.subdigi>p.p2{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(45, 44, 44);
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+}
+div.footer>div.childfooter>div.subdigi>p.p3{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(45, 44, 44);
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+}
+div.footer>div.childfooter>div.slogan{
+    width: 100%; 
+    height: 150px;
+}
+div.footer>div.childfooter>div.slogan>div{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 0px;
+    box-sizing: border-box;
+}
+div.footer>div.childfooter>div.slogan>div>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    color: rgb(45, 44, 44);
+    font-weight: 400;
+    line-height: 30px;
+}
+div.footer>div.childfooter>div.footer2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 35px;
+}
+div.footer>div.childfooter>div.footer2>div.right{
+    width: 25%;
+    height: 300px;
+
+}
+div.footer>div.childfooter>div.footer2>div.right>p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(66, 64, 64);
+}
+div.footer>div.childfooter>div.footer2>div.right>div>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+div.footer>div.childfooter>div.footer2>div.right2{
+    width: 25%;
+    height: 300px;
+}
+div.footer>div.childfooter>div.footer2>div.right2>p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(66, 64, 64);
+}
+div.footer>div.childfooter>div.footer2>div.right2>div>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+div.footer>div.childfooter>div.footer2>div.left2{
+    width: 25%;
+    height: 300px;
+}
+div.footer>div.childfooter>div.footer2>div.left2>p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(66, 64, 64);
+}
+div.footer>div.childfooter>div.footer2>div.left2>div>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+div.footer>div.childfooter>div.footer2>div.left{
+    width: 25%;
+    height: 300px;
+}
+div.footer>div.childfooter>div.footer2>div.left>p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(66, 64, 64);
+}
+div.footer>div.childfooter>div.footer2>div.left>a{
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+    padding: 35px 15px;
+}
+div.footer>div.childfooter>div.footer2>div.left>a>span{
+    font-size: 40px;
+}
+div.footer>div.childfooter>div.footer2>div.left>p.p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 35px 15px;
+    box-sizing: border-box;
+    color: rgb(66, 64, 64);
+}
+
+

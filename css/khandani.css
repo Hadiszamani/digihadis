@@ -1,0 +1,114 @@
+div.khandani{
+width: 100%;
+height: 350px;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+div.khandani>div.title{
+width: 93%;
+height: 50px;
+margin: 0 auto;
+display: flex;
+}
+div.khandani>div.title>p{
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    vertical-align: middle;
+}
+div.khandani>div.title>a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 0; 
+    margin-right: auto;
+}
+div.khandani>div.title>a>span{
+    margin-right: 5px;
+}
+div.khandani>div.childkhandani{
+    width: 93%;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+}
+div.khandani>div.childkhandani>div.right{
+    width: 24%;
+    height: 280px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+div.khandani>div.childkhandani>div.right>img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+div.khandani>div.childkhandani>div.right>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px 0px 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+div.khandani>div.childkhandani>div.right2{
+    width: 24%;
+    height: 280px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+div.khandani>div.childkhandani>div.right2>img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+div.khandani>div.childkhandani>div.right2>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px 0px 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+div.khandani>div.childkhandani>div.left{
+    width: 24%;
+    height: 280px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+div.khandani>div.childkhandani>div.left>img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+div.khandani>div.childkhandani>div.left>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px 0px 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+div.khandani>div.childkhandani>div.left2{
+    width: 24%;
+    height: 280px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+div.khandani>div.childkhandani>div.left2>img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+div.khandani>div.childkhandani>div.left2>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px 0px 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
