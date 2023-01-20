@@ -1,0 +1,69 @@
+
+div.haraj{
+    width: 100%;
+    padding: 50px; 
+    height: 600px;
+    box-sizing: border-box;
+   }
+   div.haraj>h3{
+       text-align: center;
+       font-family: IranYekan;
+       font-size: 21px;
+       font-weight: 500;
+       margin-bottom: 20px;
+   }
+   div.haraj>h3>span{
+    margin-left: 5px;
+    color: crimson;
+    vertical-align: middle;
+   }
+   div.haraj>div.first{
+       width: 100%;
+       margin: 0 auto;
+       border: 1px solid lightgrey;
+       border-radius: 15px 15px 0px 0px;
+   }
+   div.haraj>div.second{
+       width: 100%;
+       margin: 0 auto;
+       border: 1px solid lightgrey;
+       border-radius: 0px 0px 0px 0px;
+   }
+   div.haraj>div.third{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 0px 0px 15px 15px;
+}
+   div.haraj>div.first>div,div.haraj>div.second>div,div.haraj>div.third>div{
+       display: inline-block;
+       width: 16%;
+       padding: 20px;
+       box-sizing: border-box;
+       text-align: center;
+       border-left: 1px solid lightgrey;
+   }
+   div.haraj>div.first>div>img,div.haraj>div.second>div>img,div.haraj>div.third>div>img{
+       width: 50%;
+   }
+   /*div.haraj>div.first>div>div,div.haraj>div.second>div>div,div.haraj>div.third>div>div{
+   }*/
+   div.haraj>div.first>div>div>p.off,div.haraj>div.second>div>div>p.off,div.haraj>div.third>div>div>p.off{
+    font-family: IranYekan;
+    font-size: 12px;  
+    color: white;
+    background-color: crimson;
+    border-radius: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    float: right;
+   }
+   div.haraj>div.first>div>div>p,div.haraj>div.second>div>div>p,div.haraj>div.third>div>div>p{
+       font-family: IranYekan;
+       font-size: 12px;
+       float: left;
+   }
+   div.haraj>div.first>div:last-of-type,div.haraj>div.second>div:last-of-type,div.haraj>div.third>div:last-of-type{
+       border: unset;
+   }
+   

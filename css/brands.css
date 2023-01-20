@@ -1,0 +1,41 @@
+div.brands{
+    width: 100%;
+    padding: 50px; 
+    box-sizing: border-box;
+   }
+   div.brands>h3{
+       text-align: center;
+       font-family: IranYekan;
+       font-size: 21px;
+       font-weight: 500;
+       margin-bottom: 20px;
+   }
+   div.brands>h3>span{
+    margin-left: 5px;
+    color: rgb(242, 188, 40);
+   }
+   div.brands>div.brandlogos{
+       width: 100%;
+       margin: 0 auto;
+       border: 1px solid lightgrey;
+       border-radius: 15px 15px 15px 15px;
+   }
+   div.brands>div.brandlogos>div{
+       display: inline-block;
+       width: 14%;
+       padding: 20px;
+       box-sizing: border-box;
+       text-align: center;
+       border-left: 1px solid lightgrey;
+   }
+   div.brands>div.brandlogos>div>img{
+       width: 60%;   
+       vertical-align: middle;
+   }
+   div.brands>div.brandlogos>div>p{
+       font-family: IranYekan;
+       font-size: 12px;
+   }
+   div.brands>div.brandlogos>div:last-of-type{
+       border: unset;
+   }

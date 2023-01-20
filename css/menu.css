@@ -9,6 +9,21 @@ div.menu>nav{
     height: inherit;
    
 }
+div.menu>div.location{
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+div.menu>div.location>a{
+    text-decoration: none;
+    font-family: IranYekan;
+    font-size: 12px;
+    font-weight: 400px;
+    color: darkgrey;
+}
+div.menu>div.location>a>span{
+    margin-left: 5px;
+}
 div.menu>nav>ul{
     width: 100%;
     height: inherit;
