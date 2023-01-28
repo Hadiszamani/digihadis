@@ -17,7 +17,9 @@
         <div class="logo">
             <img src="./images/logo-digi.svg" alt="digikala">
         </div>
-        <div class="search"></div>
+        <div class="search">
+          <div><input type="text" placeholder="جستجو"><span class="fa-light fa-magnifying-glass"><span></div>
+        </div>
         <div class="login">
           <a href="#"><span class="fa-regular fa-right-to-bracket"></span>ورود | ثبت‌نام</a>
           <span class="fa-regular fa-cart-shopping"></span>
@@ -1277,6 +1279,106 @@
         </div>
     </div>
     <!--end product-->
+    <!--start red swiper-->
+       <div class="redswiper">
+        <div class="swiper red redclass">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/Amazings.svg" alt="">
+                <img src="./images/redswiper/box.png" alt="">
+                <a href="#">مشاهده بیشتر <span class="fa-regular fa-angle-left"></span></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/1.jpg" alt="">
+                <p class="off">59%</p>
+                <p>1,499,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/2.jpg" alt="">
+                <p class="off">60%</p>
+                <p>2,499,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/3.jpg" alt="">
+                <p class="off">25%</p>
+                <p>3,450,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/4.jpg" alt="">
+                <p class="off">66%</p>
+                <p>550,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/5.jpg" alt="">
+                <p class="off">80%</p>
+                <p>6,580,400تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/6.jpg" alt="">
+                <p class="off">20%</p>
+                <p>1,000,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/7.jpg" alt="">
+                <p class="off">90%</p>
+                <p>2,350,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/8.jpg" alt="">
+                <p class="off">45%</p>
+                <p>6,587,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/9.jpg" alt="">
+                <p class="off">59%</p>
+                <p>1,499,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/10.jpg" alt="">
+                <p class="off">92%</p>
+                <p>1,845,000تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/12.jpg" alt="">
+                <p class="off">15%</p>
+                <p>3,405,540تومان</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="./images/redswiper/5.jpg" alt="">
+                <p class="off">30%</p>
+                <p>4,620,541تومان</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+        </div>
+       </div>
+    <!--end red swiper-->
     <!--start market-->
     <div class="market">
         <div class="childmarket">
@@ -1882,6 +1984,8 @@
                     <span class="fa-brands fa-youtube"></span>
                   </a>
                   <p class="p">با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</p>
+                  <div><input type="text" placeholder="ایمیل شما"></div>
+
                 </div>
               </div>
               <div class="digiapp">
@@ -1938,9 +2042,6 @@
             </div>
           </div>
           <!--end footer-->
-
-          
-
    </div>
 
    <!-- end a project--> 
@@ -1965,6 +2066,15 @@
             prevEl: ".swiper-button-prev",
           },
         });
+        var red = new Swiper(".red", {
+      slidesPerView: 6,
+      spaceBetween: 5,
+      freeMode: true,
+      navigation: {
+            nextEl: ".swiper-button-next",
+            
+          },
+    });
         </script>
 </body>
 </html>

@@ -1,0 +1,72 @@
+div.redswiper{
+  width: 87%;
+  height: 300px;
+  background-color: crimson;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+} 
+div.redclass{
+  height: 250px;
+  padding: 25px 0px;
+}
+
+.swiper-slide:nth-of-type(1){
+  background-color: transparent;
+}
+.swiper-slide:nth-of-type(2){
+  border-radius: 0px 10px 10px 0px;
+}
+.swiper-slide:nth-last-of-type(1){
+  border-radius: 10px 0px 0px 10px;
+}
+.swiper-slide:nth-of-type(1)>div>img:nth-of-type(1){
+  width: 92px;
+  height: 77px;
+  margin: 0 auto;
+
+}
+.swiper-slide:nth-of-type(1)>div>img:nth-of-type(2){
+  width: 145px;
+  height: 115px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.swiper-slide:nth-of-type(1)>div>a{
+  text-decoration: none;
+  font-family: IranYekan;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+.swiper-slide:nth-of-type(1)>div>a>span{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.swiper-slide>div>img{
+  width: 150px;
+  height: 150px;
+}
+.swiper-slide>div>p.off{
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 0px 3px;
+  box-sizing: border-box;
+  font-family: IranYekan;
+  float: right;
+  font-size: 14px;
+  color: white;
+}
+.swiper-slide>div>p{
+  font-family: IranYekan;
+  float: left;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.swiper-button-next{
+  color: rgb(84, 84, 253);
+}
+

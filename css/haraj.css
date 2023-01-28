@@ -46,8 +46,7 @@ div.haraj{
    div.haraj>div.first>div>img,div.haraj>div.second>div>img,div.haraj>div.third>div>img{
        width: 50%;
    }
-   /*div.haraj>div.first>div>div,div.haraj>div.second>div>div,div.haraj>div.third>div>div{
-   }*/
+
    div.haraj>div.first>div>div>p.off,div.haraj>div.second>div>div>p.off,div.haraj>div.third>div>div>p.off{
     font-family: IranYekan;
     font-size: 12px;  
